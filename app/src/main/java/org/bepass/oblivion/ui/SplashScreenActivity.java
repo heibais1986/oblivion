@@ -45,7 +45,7 @@ public class SplashScreenActivity extends BaseActivity<ActivitySplashScreenBindi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LocaleHandler localeHandler = new LocaleHandler(this);
-        localeHandler.setPersianAsDefaultLocaleIfNeeds();
+        // localeHandler.setPersianAsDefaultLocaleIfNeeds(); // 注释掉这行
         // Update background based on current theme
         ThemeHelper.getInstance().updateActivityBackground(binding.getRoot());
 
