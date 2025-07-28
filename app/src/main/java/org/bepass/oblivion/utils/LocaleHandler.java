@@ -21,7 +21,7 @@ public class LocaleHandler {
     private final Context context;
     private final LocaleListCompat configuredLocales;
 
-    private static final String DEFAULT_LOCALE = "cn";
+    private static final String DEFAULT_LOCALE = "en";
     private static final String IS_SET_DEFAULT_LOCALE = "is_set_default_locale";
 
     // Define a variable to hold allowed languages
