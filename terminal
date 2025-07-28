@@ -1,0 +1,5 @@
+# 1. 先构建tun2socks AAR
+./gradlew buildTun2SocksAar
+
+# 2. 然后构建APK
+./gradlew assembleRelease
